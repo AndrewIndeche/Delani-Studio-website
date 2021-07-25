@@ -6,6 +6,5 @@ body{
   display: flex;
 }
 .column{
-  flex:20%;
-
+  flex:30%;
 }
