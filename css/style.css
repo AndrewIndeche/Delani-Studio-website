@@ -8,3 +8,6 @@ body{
 .column{
   flex:30%;
 }
+.cover{
+  background-image:url("../Assets/backgrounds/h_img.jpg");
+}
