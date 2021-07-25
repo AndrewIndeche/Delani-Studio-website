@@ -5,3 +5,7 @@ body{
 .row {
   display: flex;
 }
+.column{
+  flex:20%;
+
+}
