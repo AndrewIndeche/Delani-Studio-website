@@ -1,9 +1,12 @@
 h1{
   text-align: center;
 }
+p{
+  text-align: center;
+}
 body{
   font-family: 'Arimo', sans-serif;
-  font-size:13px;
+  font-size:10px;
 }
 .row {
   display: flex;
