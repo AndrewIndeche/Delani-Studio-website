@@ -3,30 +3,36 @@
    <head>
       <meta charset="UTF-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
-      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
         <link href="css/style.css" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
         <link href="https://fonts.googleapis.com/css2?family=Arimo&display=swap" rel="stylesheet">
           <title>Delani Studio</title>
           <link rel="delano icon" href="Assets/Delano.png" type="image/png">
           </head>
            <body>
              <div class="container">
-               <div class="cover">
-             </div>
+               <div class="card" style="height:40rem;">
+                  <div class="card-body">
                <img src="Assets/logo.png" alt="logoicon">
               <h1> WELCOME</h1>
               <h1>TO DELANI STUDIO</h1>
               <P>AMAZING PEOPLE ARE MAKING AMAZING DESIGNS IN A FUN ENVIRONMENT</P>
                <img src="Assets/mouse_click.png" alt="mouseclickicon">
+             </div>
+           </div>
           <h1>ABOUT US</h1>
               <p>When you work with us, you are part of a team of commited collaborators. All aspects of our software development process are intergrated,interactive and agile. </p>
               <p>Our approach unifies design, development and product management to create exceptional products.</p>
               <p>We start each project by understanding tour business goals, the user's needs and the product requirements<p>
               <p>Then we help translate them into effective and elegant solutions</p>
+              <div class="card">
+                 <div class="card-body">
           <h1>SERVICES</h1>
               <P>Before we sign a contract or write a line of code our team will spend the necessary time needed to understand your product vision</P>
               <P>The outcome of this scoping session is a proposal or high-level statement of work</P>
               <P>bases on your requirements, we can provide a complete offering or just the pieces you need</P>
+            </div>
+          </div>
          <h1>WHAT WE DO<h1>
            <div class="row">
            <div class="column">
@@ -44,7 +50,7 @@
          <div class="column">
            <img src="Assets/portfolio/work4.jpg" alt="work4 img">
          </div>
-         <div class="column">
+         <div clas="column">
            <img src="Assets/portfolio/work3.jpg" alt="work3 img">
          </div>
          <div class="column">
@@ -53,7 +59,6 @@
          <div class="column">
            <img scr="Assets/portfolio/work1.jpg" alt="work1 img">
          </div>
-       </div>
            <div class="row">
            <div class="column">
              <img src="Assets/portfolio/work5.jpg" alt="work5 img">
@@ -68,13 +73,15 @@
              <img scr="Assets/portfolio/work8.jpg" alt="work8 img">
            </div>
        </div>
-       <form>
+       <div class="card">
+          <div class="card-body">
+           <form onsubmit="processForm(event)">
           <div class="form-row">
             <div class="col">
-             <input type="text" class="form-control" placeholder="First name">
+             <input type="text" class="form-control" placeholder="Name...">
           </div>
           <div class="form-row">
-            <input type="text" class="form-control" placeholder="Last name">
+            <input type="text" class="form-control" placeholder="E-mail...">
           <div class="form-group">
           </div>
           <div class="col">
@@ -83,8 +90,12 @@
           </div>
           </div>
           <button type="submit" class="btn btn-primary">submit</button>
+        </div>
+      </div>
         </form>
              </div>
+           </div>
+         </div>
             <div class="row">
             <div class="column">
               <img src="Assets/social_icons/twitter.png" alt="twitter icon">
