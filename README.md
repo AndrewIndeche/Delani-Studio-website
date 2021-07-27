@@ -33,7 +33,7 @@
      <li>Github push</li>
      <li>Git hub live io site</li>
      <li>Github push to save changes</li>
-     <li>Git hub-click live site link to get calculator io site</li>
+     <li>Git hub-click live site link to get to the io site</li>
        Scripts used: Javascript on scripts.js,Css file used:styles.css,img attachment
      </ul>
      </div>
