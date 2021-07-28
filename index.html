@@ -37,12 +37,21 @@
          <h1>WHAT WE DO<h1>
            <div class="row">
            <div class="col-4">
+             <p>DESIGN<P>
+                Our design practice offers a full range of services including brand strategy, interaction and visual design and user experience testing.
+                 Throughout your project, our designers create and implement visual design and workflows, solicit user feedback and work with you to make sure what gets built is what is needed
              <img src="images//services_icons/design_icon.png" alt="design_icon">
            </div>
            <div class="col-4">
+          <p>DEVELOPMENT</p>
+          All engineers are fluent in the latest enterprise, mobile and web development technologies.
+          hey collaborate with your team to write, and improve code on a daily basis, using proven practices such as test-driven development and pair programming
              <img src="images//services_icons/dev_icon.png" alt="dev_icon">
            </div>
            <div class="col-4">
+             <p>PRODUCT MANAGEMENT</p>
+             Planning and development is iterative. Because we are constantly coding and testing, the products we build are always ready to go live.
+             This iterative process allows for changes as business requirements evolve
              <img src="images//services_icons/product_icon.png" alt="product_icon">
            </div>
          </div>
@@ -77,13 +86,15 @@
            </div>
          </div>
            <br><br>
-           <div class="container-fluid">
+            <form onsubmit="processForm(event)">
+           <div class="form">
+             <form id="myForm">
              <h1>CONTACT US</h1>
              <div class="row">
               <div class="col-5">
               <div class="form-group">
               <label for="name"></label>
-              <input type="text" name="FNAME" class="required form-control" id="name" placeholder="Name...">
+              <input type="text" name="NAME" class="required form-control" id="name" placeholder="Name...">
                 </div>
                </div>
                <div class="col-5">
@@ -97,8 +108,9 @@
                  <label for="message"></label>
                  <textarea type="text" name="MESSAGE" class="required form-control" id="Message" cols="30" rows="10" placeholder="Your message here..."></textarea>
                  </div>
+                 <form onsubmit="processForm(event)" class="d-none">
                <div class="submit"><input type="submit" value="Submit" class="button"></div>
-             </form>
+              </form>
            </div>
          </div>
            <br><br>
@@ -138,6 +150,7 @@
             </div>
             </div>
             <br>
-            <p>DELANI STUDIO<br>2019<p1>
+            <p>DELANI STUDIO<br>2021<p1>
+            <script src="js/jquery-3.6.0.js"></script>
         </body>
  </html>

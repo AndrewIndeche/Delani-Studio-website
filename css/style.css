@@ -45,13 +45,14 @@ body{
   color: white;
   background-repeat: no-repeat;
 }
-.container-fluid {
+.form {
   background-image: url(../images/backgrounds/c_image.jpg);
   background-size:cover;
   color: white;
   padding top:100px;
   padding-bottom: 70px;
   padding-left: 50px;
+  padding-right:50px;
   }
 .socialicons{
   padding-left:100px;
