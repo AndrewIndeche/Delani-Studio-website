@@ -34,25 +34,27 @@
             </div>
             <br><br>
          <h1>WHAT WE DO<h1>
-           <div class="row">
-           <div class="col-4" id="design">
-            <img src="images//services_icons/design_icon.png" id="designi">
+           <div class="row"  >
+           <div class="col-3" id="design">
+             <div class="hide-design-image"
+            <img src="images//services_icons/design_icon.png" id="design image">
+          </div>
                <p>DESIGN</p>
-               <p class="Hidden" id="design text">
+               <p class="hide" id="design-showing">
                 Our design practice offers a full range of services including brand strategy, interaction and visual design and user experience testing.
                Throughout your project, our designers create and implement visual design and workflows, solicit user feedback and work with you to make sure what gets built is what is needed </p>
             </div>
            <div class="col-4">
-             <img src="images//services_icons/dev_icon.png" id="developmenti">
+              <img src="images//services_icons/dev_icon.png">
           <p>DEVELOPMENT</p>
           <p class="" id="development">
           All engineers are fluent in the latest enterprise, mobile and web development technologies.
           hey collaborate with your team to write, and improve code on a daily basis, using proven practices such as test-driven development and pair programming</p>
            </div>
            <div class="col-4">
-             <img src="images//services_icons/product_icon.png" id="producti">
+              <img src="images//services_icons/product_icon.png" id="product_icon">
              <p>PRODUCT MANAGEMENT
-               <p id="product_mgt">
+               <p id="product_development">
              Planning and development is iterative. Because we are constantly coding and testing, the products we build are always ready to go live.
              This iterative process allows for changes as business requirements evolve</p>
            </div>
@@ -88,7 +90,7 @@
            </div>
          </div>
            <br><br>
-           <form>
+            <form onsubmit="processForm(event)">
            <div class="form">
              <form id="myForm">
              <h1>CONTACT US</h1>
@@ -96,22 +98,22 @@
               <div class="col-5">
               <div class="form-group">
               <label for="name"></label>
-              <input type="text" name="NAME" class="required form-control" id="name" placeholder="Name...">
+              <input type="text" name="NAME" class="required form-control" id="mce-FNAME name" placeholder="Name...">
                 </div>
                </div>
                <div class="col-5">
               <div class="form-group">
               <label for="email"></label>
-              <input type="email" value="" name="EMAIL" class="required email form-control" id="email" placeholder="Email">
+              <input type="text" value="" name="EMAIL" class="required email form-control" id="mce-EMAIL email" placeholder="Email">
               </div>
                </div>
                <div class="col-12">
                  <div class="form-group">
                  <label for="message"></label>
-                 <textarea type="text" name="MESSAGE" class="required form-control" id="Message" cols="30" rows="10" placeholder="Your message here..."></textarea>
+                 <textarea type="text" name="MESSAGE" class="required form-control" id="mce-MESSAGE comment" cols="30" rows="10" placeholder="Your message here..."></textarea>
                  </div>
+                 <form onsubmit="processForm(event)" class="d-none">
                <div class="submit"><input type="submit" value="Submit" class="button"></div>
-               <button type="reset" value="Reset">Reset</button>
               </form>
            </div>
          </div>
@@ -152,10 +154,8 @@
             </div>
             </div>
             <br>
-            </footer>
             <p>DELANI STUDIO<br>2021<p1>
             <script src="js/jquery-3.6.0.js"></script>
-            script src=https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js><script>
           <script src="js/scripts.js"></script>
         </body>
  </html>
