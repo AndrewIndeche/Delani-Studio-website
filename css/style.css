@@ -45,6 +45,13 @@ body{
   color: white;
   background-repeat: no-repeat;
 }
+
+#portfolio{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
 .form {
   background-image: url(../images/backgrounds/c_image.jpg);
   background-size:cover;
