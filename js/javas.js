@@ -16,7 +16,7 @@ $(document).ready(function() {
       $('#work1').mouseover(function() {
         $('overlay').show();
       }).mouseout(function() {
-        $('.overlay').hide();
+        $('.overlay1').hide();
       });
       $('#work2').mouseover(function() {
         $('.overlay2').show();
@@ -52,11 +52,6 @@ $(document).ready(function() {
       }).mouseout(function() {
         $('.overlay8').hide();
       });
-     $('.mouse').mouseover(function() {
-       $('.mouse').bounce();
-       $(".mouse").click(function(){
-         $(".aboutus").display();
-     });
      $(document).ready(function(){
        $("form#myForm").submit(function(event){
          var name = $("input#name").val();
