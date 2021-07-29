@@ -57,3 +57,8 @@ $(document).ready(function() {
        $(".mouse").click(function(){
          $(".aboutus").display();
      });
+     $(document).ready(function(){
+       $("form#myForm").submit(function(event){
+         var name = $("input#name").val();
+         var email = $("input#email").val();
+         var message = $("input#message").val();
