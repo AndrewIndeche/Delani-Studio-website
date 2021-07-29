@@ -5,6 +5,8 @@
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
         <link href="css/style.css" rel="stylesheet" type="text/css">
+        <src="js/jquery-3.6.0.js"></src>
+          <src="js/javas.js"></src>
           <title>Delani Studio</title>
           <link rel="delano icon" href="images//Delano.png" type="image/png">
           </head>
@@ -36,25 +38,25 @@
          <h1>WHAT WE DO<h1>
            <div class="row"  >
            <div class="col-3" id="design">
-             <div class="design image"
-            <img src="images//services_icons/design_icon.png" id="design image">
-          </div>
+             <div class="design image">
+            <img src="images//services_icons/design_icon.png" id="image1">
+               </div>
                <p>DESIGN</p>
-               <p id="hidden">
+               <p class="hiddenp">
                 Our design practice offers a full range of services including brand strategy, interaction and visual design and user experience testing.
                Throughout your project, our designers create and implement visual design and workflows, solicit user feedback and work with you to make sure what gets built is what is needed </p>
             </div>
-           <div class="col-4">
-              <img src="images//services_icons/dev_icon.png">
+           <div class="col-4" id="development" >
+              <img src="images//services_icons/dev_icon.png" id="dev icon">
           <p>DEVELOPMENT</p>
-          <p class="" id="development">
+          <p class="hiddenp" id="showp">
           All engineers are fluent in the latest enterprise, mobile and web development technologies.
           hey collaborate with your team to write, and improve code on a daily basis, using proven practices such as test-driven development and pair programming</p>
            </div>
-           <div class="col-4">
+           <div class="col-4" id="productm">
               <img src="images//services_icons/product_icon.png" id="product_icon">
              <p>PRODUCT MANAGEMENT
-               <p id="product_development">
+               <p class="hiddenp" id="showpr">
              Planning and development is iterative. Because we are constantly coding and testing, the products we build are always ready to go live.
              This iterative process allows for changes as business requirements evolve</p>
            </div>
@@ -65,7 +67,7 @@
           <div class="row">
             <div class="col-md-3" id="work1">
               <img src="images/portfolio/work4.jpg" alt="work1" >
-              <p class="overlay" class="text">Black</p>
+              <p class="overlay1" class="text">Black</p>
             </div>
             <div class="col-md-3" id="work2">
               <img src="images/portfolio/work3.jpg" alt="work2" id="work2">
@@ -107,23 +109,24 @@
               <div class="col-5">
               <div class="form-group">
               <label for="name"></label>
-              <input type="text" name="NAME" class="required form-control" id="mce-FNAME name" placeholder="Name...">
+              <input type="text" name="NAME" class="required form-control" id="name" placeholder="Name...">
                 </div>
                </div>
                <div class="col-5">
               <div class="form-group">
               <label for="email"></label>
-              <input type="text" value="" name="EMAIL" class="required email form-control" id="mce-EMAIL email" placeholder="Email">
+              <input type="text" value="" name="EMAIL" class="required email form-control" id="email" placeholder="Email">
               </div>
                </div>
                <div class="col-12">
                  <div class="form-group">
                  <label for="message"></label>
-                 <textarea type="text" name="MESSAGE" class="required form-control" id="mce-MESSAGE comment" cols="30" rows="10" placeholder="Your message here..."></textarea>
+                 <textarea type="text" name="MESSAGE" class="required form-control" id="message" cols="30" rows="10" placeholder="Your message here..."></textarea>
                  </div>
                </div>
                  <form onsubmit="processForm(event)" class="d-none">
                <div class="submit"><input type="submit" value="Submit" class="button"></div>
+               <button type="reset"  class= 'btn btn-primary'>clear all</button>
               </form>
            </div>
          </div>
@@ -166,8 +169,5 @@
             <br>
             <p>DELANI STUDIO<br>2021<p1>
        </div>
-       <footer>
-         
-       </footer>
         </body>
  </html>
