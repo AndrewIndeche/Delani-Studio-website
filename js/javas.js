@@ -62,3 +62,14 @@ $(document).ready(function() {
          var name = $("input#name").val();
          var email = $("input#email").val();
          var message = $("input#message").val();
+
+         if ($("input#name").val() && $("input#email").val() && $("input#message").val()){
+          alert ("Dear"+ name + " thank you for your message.we will be sure to get back to you");
+        }
+        else {
+          alert("Dear"+ name + "please fill all fields" );
+        }
+
+      });
+
+    });
