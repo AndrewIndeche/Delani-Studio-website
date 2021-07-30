@@ -62,7 +62,7 @@ $(document).ready(function() {
           alert ("Dear"+ name + " thank you for your message.we will be sure to get back to you");
         }
         else {
-          alert("Dear"+ name + "please fill all fields" );
+          alert("Dear"+ name + "please fill all fields!" );
         }
 
       });
