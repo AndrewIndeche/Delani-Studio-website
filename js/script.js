@@ -85,20 +85,19 @@
           $('#textover8').hide();
        });
     });
-      //$(document).ready(function(){
-      //  $("form#form34A").submit(function(event){
-      //  event.preventDefault();
-        // var name = $("input#name").val();
-         //var email = $("input#email").val();
-        // var message = $("input#message").val();
-    //  }
-         //if ($("#name").val() && $("#email").val() && $("#email").val()) {
-        //  alert ("Dear"+ name + " thank you for your message.we will be sure to get back to you");
-      //  }
-      //  else {
-        //  alert ("please fill in all fields");
-      //  }
 
-    //  });
+  $(document).ready(function(){
 
- //});
+  $("#myForm").submit(function(){
+    var name = $("input#name").val();
+    var email = $("input#email").val();
+    var message = $("input#message").val();
+    if ($("input#name").val() && $("input#email").val()){
+      alert ("we have received your message. Thank you for reaching out to us.");
+    }
+    else {
+      alert("Please enter your name and email!");
+    }
+  });
+
+});
