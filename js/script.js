@@ -93,11 +93,12 @@
     var email = $("input#email").val();
     var message = $("input#message").val();
     if ($("input#name").val() && $("input#email").val()){
-      alert ("we have received your message. Thank you for reaching out to us.");
+       alert ("");
     }
     else {
-      alert("Please enter your name and email!");
+      alert("we have received your message. Thank you for reaching out to us.");
     }
   });
 
 });
+
