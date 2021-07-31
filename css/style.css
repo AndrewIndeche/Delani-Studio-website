@@ -29,9 +29,17 @@ body{
 .row {
   display: flex;
 }
-.overlay1,.overlay2,.overlay3,.overlay4,.overlay5,.overlay6,.overlay7,.overlay8{
+#textover1,#textover2,#textover3,#textover4,#textover5,#textover6,#textover7,#textover8{
   display: none;
-  color: black;
+  opacity:1;
+  position: absolute;
+  width:absolute;
+  height: 50%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(255,255,255,255.255);
 }
 .cover1{
   background-image: url("../images/backgrounds/h_img.jpg");
@@ -46,7 +54,7 @@ body{
   color: white;
   background-repeat: no-repeat;
 }
-#portfolio{
+.portfolio{
   display: flex;
   flex-wrap: wrap;
   align-items: center;

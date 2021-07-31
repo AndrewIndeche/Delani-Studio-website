@@ -28,71 +28,71 @@
       $("#producti").show('1500');
     });
   });
+      $(document).ready(function(){
+        $('#portfolio1').mouseover(function() {
+         $('#textover1').show();
+       }).mouseout(function() {
+         $('#textover1').hide();
+   });
+});
+     $(document).ready(function(){
+       $('#portfolio2').mouseover(function(){
+         $('#textover2').show();
+       }).mouseout(function(){
+         $('#textover2').hide();
+    });
+ });
 
-
-
-
-
-
-
-
-
-  //   $(document).ready(function() {
-    //  $('#work1').mouseover(function() {
-      //  $('overlay').show();
-    //  }).mouseout(function() {
-        //$('.overlay1').hide();
-  //});
-    //  $(document).ready(function() {
-      // $('#work2').mouseover(function() {
-        // $('.overlay2').show();
-  //}).mouseout(function() {
-      //  $('.overlay2').hide();
-  //});
-    //  $(document).ready(function() {
-       //$('#work3').mouseover(function() {
-      //  $('.overlay3').show();
-  //}).mouseout(function() {
-      //  $('.overlay3').hide();
-  //});
-      //$(document).ready(function() {
-      // $('#work4').mouseover(function() {
-      //  $('.overlay4').show();
-  //}).mouseout(function() {
-        //$('.overlay4').hide();
-  //});
-      //$(document).ready(function() {
-      // $('#work5').mouseover(function() {
-      //  $('.overlay5').show();
-  //}).mouseout(function() {
-      //  $('.overlay5').hide();
-  //});
-    //  $(document).ready(function() {
-      // $('#work6').mouseover(function() {
-      //  $('.overlay6').show();
-  //}).mouseout(function() {
-        //$('.overlay6').hide();
-  //});
-    //  $(document).ready(function() {
-      // $('#work7').mouseover(function() {
-      //  $('.overlay7').show();
-  //}).mouseout(function() {
-        //$('.overlay7').hide();
-//  });
-
-    //  $('#work8').mouseover(function() {
-      //  $('.overlay8').show();
-  //}).mouseout(function() {
-        //$('.overlay8').hide();
-  //});
-    //  $(document).ready(function(){
-    //    $("form#form34A").submit(function(event){
+     $(document).ready(function(){
+       $('#portfolio3').mouseover(function(){
+         $('#textover3').show();
+       }).mouseout(function(){
+         $('#textover3').hide();
+    });
+});
+      $(document).ready(function() {
+        $('#portfolio4').mouseover(function(){
+         $('#textover4').show();
+       }).mouseout(function(){
+        $('#textover4').hide();
+    });
+  });
+        $(document).ready(function() {
+          $('#portfolio5').mouseover(function() {
+           $('#textover5').show();
+            }).mouseout(function() {
+           $('#textover5').hide();
+      });
+   });
+        $(document).ready(function() {
+          $('#portfolio6').mouseover(function() {
+            $('#textover6').show();
+            }).mouseout(function() {
+           $('#textover6').hide();
+       });
+    });
+      $(document).ready(function() {
+        $('#portfolio7').mouseover(function(){
+          $('#textover7').show();
+          }).mouseout(function() {
+        $('#textover7').hide();
+     });
+    });
+      $(document).ready(function() {
+        $('#portfolio8').mouseover(function() {
+          $('#textover8').show();
+           }).mouseout(function() {
+          $('#textover8').hide();
+       });
+    });
+      //$(document).ready(function(){
+      //  $("form#form34A").submit(function(event){
       //  event.preventDefault();
-      //   var name = $("input#name").val();
-      //   var email = $("input#email").val();
-      //   var message = $("input#message").val();
+        // var name = $("input#name").val();
+         //var email = $("input#email").val();
+        // var message = $("input#message").val();
     //  }
-        // if ($("#name").val() && $("#email").val() && $("#email").val()) {
+         //if ($("#name").val() && $("#email").val() && $("#email").val()) {
         //  alert ("Dear"+ name + " thank you for your message.we will be sure to get back to you");
       //  }
       //  else {
